@@ -1,7 +1,4 @@
-use rayon::iter::ParallelIterator;
 use std::fs;
-use std::iter::zip;
-use rayon::iter::IntoParallelRefIterator;
 
 pub fn d5q2() {
     let strings = fs::read_to_string("d5q1.txt")

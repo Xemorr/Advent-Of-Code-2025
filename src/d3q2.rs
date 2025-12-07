@@ -33,7 +33,7 @@ pub fn d3q2() {
 fn max_joltage_for_bank(line: String) -> u64 {
     let mut count = 0;
     let chars: Vec<char> = line.chars().collect();
-    let mut current_chars = chars.clone();
+    let current_chars = chars.clone();
     let mut lower_bound = 0;
     for i in 0..12 {
         let legal_region = &current_chars[lower_bound..(chars.len() - (12 - i - 1))];
