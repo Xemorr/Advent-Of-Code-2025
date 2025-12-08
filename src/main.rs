@@ -10,6 +10,7 @@ mod d6q1;
 mod d6q2;
 mod d7q1;
 mod d7q2;
+mod d8q1;
 
 use std::str::FromStr;
 use crate::d7q1::d7q1;
